@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy';
+    line-height: 1.8;
+    color: #000;
+    
+}
+
+header {
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+header h1 {
+    font-size: 2.4em;
+    color: #000
+}
+
+header p {
+    font-size: 1.1em;
+    background-color: #000;
+    max-width: 280px;
+    border: none;
+    margin: 10px auto;
+    border-radius: 100px;
+    padding: 8px 20px ;
+    cursor: default;
+    color: #fff;
+    font-weight: bolder;
+   
+}
+
+section {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #555;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+
+
+}
+section p {
+    font-size: 1.1em;
+
+}
+
+
+
+#skills but {
+    background-color: #9B37FF;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 3px;
+    cursor: default;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    background-color: #6C39FF;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 5px;
+    cursor: default;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder
+}
+
+
+
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #73697D;
+    font-size: 0.9em;
+}
